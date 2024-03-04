@@ -1,0 +1,68 @@
+/* Background color */
+html {
+  background: maroon;
+}
+
+/* Center fixed width */
+body {
+  background: white;
+  width: 600px;
+  padding: 30px 75px;
+  margin: 0px auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Pythagorean image */
+img {
+  width: 400px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Maven Pro", sans-serif;
+}
+
+h2,
+h3 {
+  color: maroon;
+}
+
+h1 {
+  color: #808000;
+}
+
+/* Pythagorean calculator box */
+#container {
+  background: rgb(235, 235, 235);
+  border: 2px solid gray;
+  padding: 10px 50px;
+}
+
+#calculator {
+  border: 1px solid black;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* Calculate button */
+button {
+  color: white;
+  background: #808000;
+  padding: 10px 5px;
+  font-variant: small-caps;
+}
+
+.maroon {
+  color: maroon;
+}
+
+img:hover {
+  border: 3px solid black;
+  transition: 0.5s;
+}
